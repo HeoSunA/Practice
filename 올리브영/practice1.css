@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+
+/*
+html{
+    font-size: 13px
+}
+*/
+
+.logo{
+    width: 250px;
+    height: 45px;
+    position: absolute;
+    top: 67px;
+    left: 250px
+}
+
+.info li{
+    display: inline-block;
+    list-style: none;
+}
+
+.info li a{
+    font-size: 13px;
+    margin-right: 13px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+        left:730px;
+    border-right: 0.5px solid gray
+}
+.search{
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    left: 550px;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    color: black;
+    text-decoration-line:none;
+    margin-right: 20px;
+    position: relative;
+    left: 300px;
+    bottom: 5px;
+    
+}
+.menu li a, .login a:hover{
+    text-decoration-line: underline
+}
+.login li{
+    display: inline-block;
+    list-style: none;
+}
+.login a{
+    font-size: 14px;
+    margin-right: 10px;
+    color: black;
+    text-decoration-line: none;
+    position: relative;
+    left: 1050px;
+    bottom: 33px
+}
+header{
+            border-bottom:3px solid black;
+            padding-left: 20px;
+}
+.olive{
+    border: 2px solid yellowgreen;
+    border-radius: 30px;
+    width: 300px;
+    height: 30px;
+}
+.button{
+        border: 1px solid green;
+        border-radius: 10px;
+        height: 30px;
+        width: 50px
+    }
+.menu1{
+    font-size: 15px;
+    font-weight: 900;
+    border-top: 0.5px solid gray
+}

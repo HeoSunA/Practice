@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+
+.logo{
+    width: 210px;
+    height: 50px;
+    margin-left: 210px;
+    margin-top: 60px;
+}
+.top-menu{
+    position: absolute;
+    left: 1067px;
+    top: 0
+}
+.top-menu li{
+    list-style: none;
+    display: inline-block;
+
+}
+.top-menu li a{
+    text-decoration-line: none;
+    color: black;
+    font-size: 13px;
+    margin-right: 6px;
+}
+.search{
+position: relative;
+    left: 430px;
+    bottom: 45px;
+}
+.search-box{
+    display: inline-block;
+    border: 2px solid #0BC904;
+    width: 470px;
+    height: 40px;
+}
+.search-button{
+    display: inline-block;
+    border: 2px solid #0BC904;
+    background-color: #0BC904;
+    width: 45px;
+    height: 45.5px;
+    color: #fff;
+
+}
+.top-menu2{
+    border-bottom: 1.5px solid #E4E4E4;
+    border-top: 1px solid #E4E4E4;
+}
+.top-menu2 li{
+    position: relative;
+    left: 150px;
+    display: inline-block;
+    list-style: none;
+}
+.top-menu2 li a{
+    text-decoration-line: none;
+    color: black;
+    margin-left: 13px;
+    font-family: 'Hanna', sans-serif;   
+}
+.back-color{
+    background-color: #D9E5FF;
+}
+.wrapper{
+    margin: 0 200px;
+}
+.login{
+    position: relative;
+    background: #fff;
+    width: 330px;
+    height: 120px;
+    border: 1px solid gray;
+    margin-left: 730px;
+
+}
+.id{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 150px;
+    height: 30px;
+}
+.psw{
+    position: absolute;
+    top: 44px;
+    left: 15px;
+    width: 150px;
+    height: 30px;
+}
+.login-button{
+    position: absolute;
+    left: 166px;
+    top: 10px;
+    width: 60px;
+    height: 70px;
+    border: 1px solid #0BC904;
+    background-color: #0BC904;
+    color: #fff;
+}
+.login2,.login3,.login4{
+    display: inline-block;
+    font-size: 12px;
+}
+.login3 a, .login4 a{
+    text-decoration-line: none;
+    color: black;
+}
+.login2{
+    margin-top: 90px;
+    margin-left: 6px;
+}
+.login3{
+    margin-left: 10px;
+}
+.login4{
+    margin-left: 15px;
+}
+.login5{
+    :active
+}

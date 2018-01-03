@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.end{
+    font-size: 11px;
+    list-style: none;
+    display: inline-block;
+    text-align: inherit;
+    column-count: 3;
+    column-rule-style: solid;
+    column-rule-width: thin;
+    column-rule-color: lightgray;
+.last-logo{
+    width: 250px;
+    height: 40px;
+}
